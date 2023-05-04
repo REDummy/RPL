@@ -4,6 +4,15 @@ public class Customer {
     private String namaCust;
     private String noTelpCust;
     private String alamatCust;
+    private String instansiCust;
+
+    public String getInstansiCust() {
+        return instansiCust;
+    }
+
+    public void setInstansiCust(String instansiCust) {
+        this.instansiCust = instansiCust;
+    }
 
     public String getNikCust() {
         return nikCust;

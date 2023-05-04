@@ -1,7 +1,7 @@
 public class Motor {
     private String noPolMotor;
     private String merkMotor;
-    private String warnaPolMotor;
+    private String warnaMotor;
 
     public String getNoPolMotor() {
         return noPolMotor;
@@ -19,11 +19,11 @@ public class Motor {
         this.merkMotor = merkMotor;
     }
 
-    public String getWarnaPolMotor() {
-        return warnaPolMotor;
+    public String getWarnaMotor() {
+        return warnaMotor;
     }
 
-    public void setWarnaPolMotor(String warnaPolMotor) {
-        this.warnaPolMotor = warnaPolMotor;
+    public void setWarnaMotor(String warnaMotor) {
+        this.warnaMotor = warnaMotor;
     }
 }

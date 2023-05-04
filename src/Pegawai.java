@@ -1,12 +1,23 @@
 public class Pegawai {
     private String namaPegawai;
     private String noPegawai;
+    private String nikPegawai;
     private String alamatPegawai;
     private String uidPegawai;
     private String passPegawai;
 
+
+
     public String getNamaPegawai() {
         return namaPegawai;
+    }
+
+    public String getNikPegawai() {
+        return nikPegawai;
+    }
+
+    public void setNikPegawai(String nikPegawai) {
+        this.nikPegawai = nikPegawai;
     }
 
     public void setNamaPegawai(String namaPegawai) {

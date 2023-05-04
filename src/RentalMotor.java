@@ -4,12 +4,21 @@ public class RentalMotor {
     private String tglKembali;
     private double hargaRental;
     private double dendaRental;
+    private int durasi;
     private Customer customer;
     private Motor motor;
     private Pegawai pegawai;
 
     public String getNoRental() {
         return noRental;
+    }
+
+    public int getDurasi() {
+        return durasi;
+    }
+
+    public void setDurasi(int durasi) {
+        this.durasi = durasi;
     }
 
     public void setNoRental(String noRental) {
